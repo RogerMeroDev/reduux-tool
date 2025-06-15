@@ -7,12 +7,13 @@ import { store } from './src/store';
 import HomeScreen from './src/screens/HomeScreen';
 import PokemonComponent from './src/screens/PokemonComponent';
 import PokemonInfoScreen from './src/screens/PokemonInfoScreen';
-
+import ChuckNorris from './src/screens/ChuckNorris';
 export default function App() {
   return (
    <Provider store={store}>
     <PokemonComponent />
-    <PokemonInfoScreen /> 
+   
+    <ChuckNorris />
     </Provider>
   );
 }
